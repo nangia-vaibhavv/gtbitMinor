@@ -1,0 +1,448 @@
+body {
+  font-family: ABeeZee, sans-serif;
+}
+pointer
+
+.nav-brand {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+@media (min-width: 768px) {
+  .nav-brand {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .nav-brand {
+    font-size: 2.8rem;
+  }
+}
+.pizza-slice {
+  font-size: 1.2rem;
+  padding-left: 1.25%;
+  color: #0212a0;
+}
+
+.pizza-cta {
+  padding-top: 4%;
+}
+
+.looking-for-pizza {
+  font-size: 2.5rem;
+  padding-bottom: 1.8%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.book-cust-btn {
+  color: white;
+  font-size: 1.2rem;
+  padding: 2% 8%;
+  border-radius: 25px;
+  background-color: #0212a0;
+  border: 2px white solid;
+  font-family: ABeeZee, sans-serif;
+}
+.book-cust-btn:hover {
+  color: #0212a0;
+  background-color: white !important;
+  border: 2px solid black !important;
+}
+
+@media (min-width: 768px) {
+  .book-cust-btn {
+    font-size: 1.4rem;
+    padding: 0.5% 5%;
+  }
+}
+.big-img-container {
+  padding: 10% 0;
+
+}
+
+@media (min-width: 768px) {
+  .big-img-container {
+    padding: 4% 0;
+  }
+}
+.big-img {
+  width: 96%;
+  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+  
+}
+
+.selectable-cust{
+  font-size: 1.25rem;
+  padding-bottom: 2%;
+  background-color: rgb(212, 186, 247)!important;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.booking-dropdown {
+  width: 85%;
+  padding: 4% 0;
+  background-color: #0212a0;
+  color: white;
+  margin: 2% 0;
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.booking-dropdown:hover {
+  background-color: #0212a0;
+  color: white;
+}
+.booking-dropdown:focus {
+  outline: none;
+  box-shadow: none;
+}
+.booking-dropdown-menu {
+  outline: none;
+}
+.booking-dropdown-item:hover {
+  background-color: white;
+}
+.booking-dropdown-item:active {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .booking-dropdown {
+    font-size: 1.2rem;
+  }
+}
+
+
+.cust-display-message {
+  padding: 2% 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+
+
+.custs-display {
+  background-color: #0212a0;
+  margin: 10% 2%;
+  padding: 3% 5%;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  
+  
+  .custs-display {
+    margin: 6% 2.5%;
+  }
+}
+
+
+.cust-key {
+  padding-top: 1%;
+  padding-bottom: 4.5%;
+  color: white;
+}
+
+.available-custs {
+  color: white;
+  font-size: 1.2rem;
+  font-family: Roboto, sans-serif;
+}
+
+
+
+.cust-container {
+  margin: 0 1%;
+}
+
+
+
+.cust{
+  background-color: rgba(245, 246, 250, 0.4);
+  padding: 15px;
+  border-radius: 50%;
+  min-width: 80px;
+}
+
+
+
+.cust-row {
+  margin-bottom: 8px;
+}
+
+.selectable-cust:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.selectable-cust:hover-row {
+  padding: 5px;
+}
+
+.full-cust{
+ /*background-color: white;*/
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+.empty-cust{
+  background-color: rgb(212, 186, 247);
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+
+
+.cust-name {
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 15px;
+  font-family: Roboto, sans-serif;
+}
+
+.reservation-details-container {
+  padding: 0 4%;
+  padding-bottom: 5%;
+}
+
+.reservation-details {
+  margin: 0 2%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .reservation-details {
+    margin-bottom: 0;
+  }
+}
+.reservation-input:focus {
+  border-color: black;
+  box-shadow: 0 0;
+}
+
+.reservation-error {
+  color: #c0392b;
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+}
+
+.thanks-header {
+  padding: 5% 0;
+  padding-top: 10%;
+  font-size: 2.5rem;
+}
+
+.thanks-subtext {
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+.thank-you-pizza {
+  font-size: 4rem;
+  color: #0212a0;
+  padding-bottom: 8%;
+}
+
+@media (min-width: 768px) {
+  .thanks-header {
+    font-size: 5.5rem;
+  }
+
+  .thanks-subtext {
+    font-size: 2.2rem;
+  }
+
+  .thank-you-pizza {
+    font-size: 7rem;
+    padding-bottom: 4%;
+  }
+}
+
+
+/*====================
+        ABOUT
+======================*/
+
+
+.about{
+  padding-top:50px;
+  padding-bottom:50px;
+  color:#555;
+}
+
+.about-content{
+  padding-top:20px;
+}
+
+.about h2{
+  text-align:center;
+}
+
+.about h2::after{
+  content:'';
+  background:#007bff;
+  display:block;
+  height:3px;
+  width:170px;
+  margin:20px auto 5px;
+}
+
+.about .btn{
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.im h1::after{
+  content:'';
+  background:#007bff;
+  display:block;
+  height:3px;
+  width:170px;
+  margin:20px auto 5px;
+}
+
+
+.im{
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
+}
+
+.im-list{
+  list-style-type: square;
+}
+
+.page-title-bg1{
+  color:white;
+  font-size: xx-large;
+background-image: url("https://cdn.lowgif.com/small/b8959a9960830823-website-design-background-video-find-make-share-gfycat-gifs.gif");
+background-attachment:fixed;
+background-size: cover;
+background-repeat: no-repeat;
+text-align:center;
+}
+
+.about-area{
+ padding:5%;
+}
+
+footer{
+  text-align:center;
+  background-color: rgb(127, 182, 255);
+  color:white;
+  padding:1%;
+
+}
+
+
+
+/*DARK MODE*/
+
+@media(prefers-color-scheme:dark){
+
+   
+  
+  p,nav{
+      color:white;
+  }
+
+  h1,h2,h3,h4{
+      color:rgb(162, 105, 189);
+  }
+
+  a:hover{
+      color:purple;
+  }
+
+   ul{
+       color:white;
+       background-image: url("https://static.vecteezy.com/system/resources/previews/000/582/542/non_2x/vector-abstract-template-black-frame-layout-metallic-red-light-on-dark-background-modern-luxury-futuristic-technology-concept.jpg");
+       background-repeat: no-repeat;
+       background-position: fixed;
+       background-size: cover;
+   }
+
+
+
+  div{
+      background-color:black;
+      color:white;
+  }
+
+  .container{
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/582/542/non_2x/vector-abstract-template-black-frame-layout-metallic-red-light-on-dark-background-modern-luxury-futuristic-technology-concept.jpg");
+      background-repeat: no-repeat;
+      background-position: fixed;
+      background-size: cover;
+  }
+
+  .nav-brand {
+  
+    color:white!important;
+  }
+
+  .about-area{
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/582/542/non_2x/vector-abstract-template-black-frame-layout-metallic-red-light-on-dark-background-modern-luxury-futuristic-technology-concept.jpg");
+      background-repeat: no-repeat;
+      background-position: fixed;
+      background-size: cover;
+
+  }
+
+  .navbar{
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/582/542/non_2x/vector-abstract-template-black-frame-layout-metallic-red-light-on-dark-background-modern-luxury-futuristic-technology-concept.jpg");
+      background-repeat: no-repeat;
+      background-position: fixed;
+      background-size: cover;
+      color:white!important;
+  }
+
+  .galpage{
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/516/501/310/line-grey-blue-design-metallic-hd-wallpaper-preview.jpg")!important;
+    
+}
+}
+
+
+
+/*Chat Bot*/
+
+.bot {
+  bottom: 1.5%;
+  right : 1.5%;
+  position: fixed;
+  width: 350px;
+}
+
+.chatbtn {
+  border:0;
+  border-radius:50%;
+  font-size: 20px;
+  float: right;
+  width: 15%;
+  padding: 8px;
+  background-color: rgb(148, 241, 71);
+}
+
+/*# sourceMappingURL=index.css.map */
