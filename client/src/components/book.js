@@ -415,7 +415,7 @@ export default props => {
       <Row noGutters className="text-center align-items-center pizza-cta">
         <Col>
           <p className="looking-for-pizza">
-            {!selection.table.id ? "Book a custodian" : "Confirm Reservation"}
+            {!selection.table.id ? "Book a P2P Agent" : "Confirm Reservation"}
             <i
               className={
                 !selection.table.id
@@ -426,7 +426,7 @@ export default props => {
           </p>
           <p className="selected-cust">
             {selection.table.id
-              ? "You are booking custodian " + selection.table.name
+              ? "You are booking P2P Partner named " + selection.table.name
               : null}
           </p>
 

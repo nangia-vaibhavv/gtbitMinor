@@ -11,7 +11,7 @@ export default props => {
             props.setPage(0);
           }}
         >
-          Guardian Angel
+          P2P Delivery
         </NavbarBrand>
       </Navbar>
     </div>
