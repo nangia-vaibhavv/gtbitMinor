@@ -9,7 +9,7 @@ class Footer extends Component {
 
         <Zoom delay={400}>
                   <footer>
-                      @Custodian
+                      All rights reserved by @P2P Delivery.
                   </footer>
 
         </Zoom>

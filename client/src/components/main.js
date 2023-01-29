@@ -11,7 +11,7 @@ export default props => {
 <Row noGutters className="text-center big-img-container">
         <Col>
           <img
-            src={require("../images/guards.jpg")}
+            src={require("../images/delivery.jpg")}
             alt="cafe"
             className="big-img"
           />
@@ -20,8 +20,7 @@ export default props => {
       <Row noGutters className="text-center align-items-center pizza-cta">
         <Col>
           <p className="looking-for-pizza">
-            If you are worried abut the protection of your house...
-            <i className="fas fa-door-open pizza-slice"></i>
+          Now No need to travel in crowded city to drop a parcel            <i className="fas fa-door-open pizza-slice"></i>
           </p>
           <Button
             color="none"
@@ -30,7 +29,7 @@ export default props => {
               props.setPage(1);
             }}
           >
-            Book Your Custodian
+            P2P Partners
           </Button>
         </Col>
       </Row>
